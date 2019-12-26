@@ -1,0 +1,4 @@
+Based on Django framework
+pip3 install requirements.txt
+Run in forexapi dir:
+gunicorn forexapi.wsgi:application --bind 0.0.0.0:8000
